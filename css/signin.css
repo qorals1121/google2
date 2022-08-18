@@ -62,14 +62,56 @@ main {
     height: 20px;
 
     margin: 0px 0px 50px 0px;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
     color: #338cff;
 
     cursor: pointer;
 }
 
+.guest-mode {
+    font-size: 16px;
+}
 
+.know-more-button {
+    border: none;
+
+    font-size: 16px;
+    color: #338cff;
+    background-color: #ffffff00;
+
+    cursor: pointer;
+}
+
+.signup {
+    display: flex;
+    align-items: right;
+
+    border: none;
+
+    width: 80px;
+    height: 40px;
+    margin: 50px 0px 0px;
+
+    font-size: 16px;
+    color: #338cff;
+    background-color: #ffffff00;
+
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: #dbdbdb;
+    color: #387bd3;
+}
+
+.next-button {
+    border: none;
+
+    width: 50px;
+    height: 40px;
+    background-color: #338cff;
+}
 
 footer {
     display: flex;
