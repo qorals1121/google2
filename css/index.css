@@ -6,6 +6,8 @@ header {
 }
 
 nav {
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +50,26 @@ nav {
 
 .nav-round-button:hover {
     background-color: #ebebeb;
+}
+
+.nav-item-box {
+    position: absolute;
+    bottom: -700px;
+    right: 5px;
+
+    box-shadow: 0px 2px 10px -6px #141414;
+    border-radius: 10px;
+
+    width: 500px;
+    height: 700px;
+
+    background-color: white;
+
+
+}
+
+.visible {
+    display: none;
 }
 
 /*================<< main >>=================*/
